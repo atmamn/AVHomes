@@ -335,15 +335,16 @@ section div img{
 }
 
 .form-section{
-	width: 100%;
+	/*width: 100%;*
 	height: fit-content;
 	background: linear-gradient(90deg, rgba(3,36,0,1) 0%, rgba(110,212,19,1) 0%, rgba(80,168,75,1) 0%, rgba(0,255,34,1) 100%);
 	box-sizing: border-box;
 	position: relative;
+	text-align: center;
 }
 
 .form-section form{
-	padding: 4rem;
+	padding: 4rem 0;
 	font-size: 2.5rem;
 	height: 15rem;
 	width: 100%; /*60%*/
