@@ -6,7 +6,6 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
-	width: 100vw !important;
 } 
 
 #text {
@@ -832,7 +831,7 @@ main .product-details{
 	}
 	footer{
 		text-align: left;
-		padding: 1rem;
+		padding: 1rem 0;
 		margin: 0;
 	}
 	footer div .second-sec{
