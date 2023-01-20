@@ -1,0 +1,861 @@
+*{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+} 
+
+#text {
+	font-size: 40px;
+	font-family: monospace;
+	position: absolute;
+	top: 17rem;
+}
+
+.tech-that-txt{
+	color: white;
+}
+
+.typing{
+	color: rgb(9, 191, 9);
+	font-weight: bold;
+}
+
+body{
+	margin: 0%;
+	padding: 0;
+}
+
+.home-header .nav-section .div-one .logo{
+	width: 100px;
+	height: 50px;
+	display: flex;
+	margin-left: 3rem;
+}
+
+header{
+	border: 1px dotted white;
+	background-color: white;
+	min-height: 70px;
+	/*height: fit-content;*/
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 1;
+	text-transform: capitalize;
+}
+
+.mobile-menu{
+	display: none;
+}
+
+.nav-section{
+	display: flex;
+	background-color: transparent;
+	width: 100%;
+	gap: 2rem;
+	height: fit-content;
+	box-sizing: border-box;
+	align-items: center;
+}
+
+.nav-section .responsive{
+	display: flex;
+	gap: 2rem;
+}
+
+.space-taker{
+	height: 68px;
+}
+
+.space-taker2{
+	height: 38px;
+	width: 100%;
+}
+
+.extra-menus-section{
+	height: fit-content;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #f6f6f7;
+	padding: 1.5rem;
+	background-color: #f6f6f7;
+}
+
+.extra-menus{
+	display: flex;
+	gap: 3rem;
+	margin: 0% 10rem;
+	padding: 1rem;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 1;
+	justify-content: space-between;
+}
+
+.extra-menus div a{
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+
+.extra-menus div{
+	position: relative;
+}
+
+.extra-menus div a span{
+	position: absolute;
+	bottom: -2px;
+	left: -2rem;
+	font-size: 24px;
+}
+
+img{
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	z-index: 0;
+}
+
+.banner-text{
+	background-image: url('homeimg.png');
+	height: 60vh;/*60*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.outward-span-of-typing{
+	position: absolute;
+	bottom: 20%;
+	left: 10%;
+	font-size: 3rem;
+}
+
+.visible-menu-text h3{
+	cursor: pointer;
+}
+
+.extra-menus-section{
+	display: none;
+}
+
+.extra-menus-section.show-extra-menus{
+	display: flex;
+}
+
+.div-two{
+	margin-left: 3rem;
+}
+
+.div-two .visible-menu-text{
+	position: relative;
+}
+
+.div-two .visible-menu-text h3:hover{
+	color: rgb(11, 230, 11);
+}
+
+.div-two .visible-menu-text .material-icons{
+	position: absolute;
+	bottom: 0;
+}
+
+.nav-section .nav-gallary{
+	margin-left: 1rem;
+}
+
+.nav-section .visible-menu-text a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-section .nav-gallary a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-section .nav-gallary a:hover{
+	color: rgb(11, 230, 11);
+}
+
+.nav-section .about-us a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-section .about-us a:hover{
+	color: rgb(11, 230, 11);
+}
+
+main{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.s1, .s2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2rem;
+	width: fit-content;
+	margin: 2rem auto;
+}
+
+.s1 .product-div, .s2 .product-div{
+	height: 23rem;
+	width: 23.1rem;
+	border: 1px solid rgb(221, 210, 210);
+	border-radius: 5px;
+	position: relative;
+	display: block;
+}
+
+.s1 .product-image-small, .s2 .product-image-small{
+	display: flex;
+	justify-content: center;
+	margin-top: 5.5rem;
+	font-size: 48px;
+	color: rgb(11, 230, 11);
+}
+
+.product-div h4{
+	margin: 0;
+	text-align: center;
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+
+.product-div .first-p{
+	margin: 0;
+	text-align: center;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+}
+
+.s1 div:hover, .s2 div:hover{
+	box-shadow: 1px 1px 5px 5px rgb(163, 229, 141); /*rgb(187, 170, 170)*/
+}
+.s1 .product-div a, .s2 .product-div a{
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 1rem;
+	color: rgb(11, 230, 11);
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.btn-arrow{
+	position: absolute;
+	bottom: 0%;
+	padding: 0.7rem;
+}
+
+.s1 .product-div a:hover, .s2 .product-div a:hover{
+	background-color: rgb(11, 230, 11);
+	color: white;
+	font-weight: bold;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 1px 1px 5px 5px rgb(163, 229, 141);
+}
+
+.home-vid{
+	background-color: rgb(253, 248, 248);
+	display: flex;
+	align-items: center;
+}
+
+.home-vid-vid{
+	margin: 1rem 4rem;
+	border-radius: 5px;
+}
+
+.home-vid section{
+	position: relative;
+}
+
+.home-vid section p{
+	display: flex;
+	align-items: center;
+	place-items: center;
+	height: fit-content;
+	width: 70%;
+	font-size: 1.5rem;
+}
+
+.home-vid section a{
+	color: rgb(11, 230, 11);
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+.home-vid section .see-gallary-arrow{
+	position: absolute;
+	bottom: -3px;
+	font-size: 36px;
+}
+
+section div img{
+	width: 370px;
+	height: 140px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	transition: .5s;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+/* for top js section that is commented*/
+section div img{
+	display: none;	
+}
+
+.home-extra-text{
+	display: none;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+}
+
+.form-section{
+	width: 100%;
+	height: fit-content;
+	background: linear-gradient(90deg, rgba(3,36,0,1) 0%, rgba(110,212,19,1) 0%, rgba(80,168,75,1) 0%, rgba(0,255,34,1) 100%);
+	box-sizing: border-box;
+	position: relative;
+}
+
+.form-section form{
+	padding: 4rem;
+	font-size: 2.5rem;
+	height: 15rem;
+	width: 100%; /*60%*/
+	margin: 0 auto;
+	box-sizing: border-box;
+	height: fit-content;
+	position: relative;
+}
+
+form h3{
+	margin: 0 auto 1.5rem auto;
+	color: white;
+	text-align: center;
+}
+
+.textarea-section{
+	text-align: center;
+	padding: 1.3rem;
+	position: relative;
+	margin: 1rem;
+	display: none;
+}
+
+form section textarea{
+	margin: 0 auto;
+	border-radius: 5px;
+	resize: vertical;
+	border: 1px solid white;
+}
+
+form .textarea-section label h4{
+	color: white;
+	position: absolute;
+	z-index: 99;
+	display: none;
+	top: -33px;
+	left: 306px;
+	margin: 30px;
+	padding-bottom: 0.3rem;
+	font-size: 1rem;
+}
+
+.form-section form .first-section {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.form-section form .first-section label h4{
+	margin: 0;
+	font-size: 1rem;
+	display: none;
+
+	position: absolute;
+	top: 130px;
+	color: white;
+}
+
+.form-section form .first-section label h4 .one{
+	left: 11.5rem;
+}
+
+.form-section form section label h4:nth-of-type(2){
+	left: 32.5rem;
+}
+
+.form-section form section label h4:nth-of-type(3){
+	left: 0;
+}
+
+
+.form-section form div{
+	display: flex;
+	width: fit-content;
+	gap: 1rem;
+	margin: auto;
+}
+
+.form-section form label input, .form-section form section select, .form-section form section button{
+	width: 320px;
+	height: 45px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.form-section form section select{
+	background-color: white;
+}
+
+.form-section form section button{
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white;
+	text-transform: capitalize;
+}
+
+.form-section form section button:hover{
+	cursor: pointer;
+	background-color: white;
+	color: rgb(11, 230, 11);
+}
+
+.form-error-message {
+	color: red;
+	font-size: 15px;
+	margin-top: 10px;
+	padding-top: 0%;
+	display: none; /* hide the element by default */
+	text-align: center;
+	font-weight: bold;
+}
+
+.form-error-message.show {
+	display: block; /* show the element when the class "show" is added */
+	text-align: center;
+}
+
+#phone {
+	border: 1px solid #ddd; /* default border color */
+}
+
+/*#phone.error {
+	border-color: red; border color when error message is displayed 
+}*/
+
+
+/* Set blue border for input in focus */
+.email-error{
+	display: none;
+}
+  #email:focus {
+    border: 1px solid blue;
+	border: blue;
+  }
+
+  .error-message.show {
+	margin-top: 10px;
+	display: block;
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+	padding-top: 0%;
+ }
+ .error-message {
+	display: none;
+ }
+ 
+ /*#email:valid {
+    border: 1px solid blue;
+}*/
+
+
+
+
+
+
+.s4 h3{
+	text-align: center;
+}
+
+section .brands{
+	display: flex;
+	justify-content: center;
+}
+
+section .brands img{
+	display: flex;
+	justify-content: center;
+}
+
+footer{
+	background-color: rgb(50, 46, 46);
+	margin-top: 3rem;
+	padding: 4rem 4rem 0 4rem; /*fix p whitespace here*/
+	text-transform: capitalize;
+}
+
+.product-page{
+	margin-top: 0;
+}
+
+footer .logo{
+	width: 100px;
+	height: fit-content;
+	top: 30%;
+	left: 30%;
+}
+
+footer .first-sec{
+	width: fit-content;
+}
+
+footer .second-sec{
+	width: fit-content;
+}
+
+footer div .second-sec{
+	display: flex;
+	gap: 3rem;
+}
+
+footer div .second-sec section a{
+	display: block;
+}
+
+footer .for-flex{
+	display: flex;
+	gap: 8rem;
+	justify-content: center;
+	padding: 0 1rem 0 1rem;
+}
+
+footer .for-flex .social-icons{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.5rem;
+}
+
+footer .for-flex .social-icons i{
+	color: rgb(176, 176, 176);
+	cursor: pointer;
+}
+
+footer div section a{
+	color: rgb(176, 176, 176);
+	text-decoration: none;
+	line-height: 1.5rem;
+}
+
+footer .omnapoti{
+	margin: 0%;
+	padding: 0%;
+}
+
+footer p{
+	text-align: center;
+	margin: 0%;
+	padding: 1rem 0 0.5rem 0;
+	color: rgb(176, 176, 176);
+}
+
+footer .for-flex .divider{
+	border: 1px solid rgb(176, 176, 176);;
+}
+
+footer .omnapoti p .omnapoti-link{
+	color: rgb(176, 176, 176);
+	text-decoration: none;
+}
+
+footer .contact-details{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	padding-top: 1.5rem;
+}
+
+
+
+
+
+
+/* Product page*/
+.product-header{
+	background-image: url('homeimg.png');
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.product-header .product-header-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.product-header .product-header-div .material-icons{
+	font-size: 3rem;
+	color: white;
+}
+
+.product-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .product-details{
+	width: 60%;
+	margin: 1rem auto;
+}
+
+/* media query*/
+
+@media (max-width: 900px) {
+	.nav-section .responsive{
+		display: none;
+	}
+	.mobile-menu{
+		display: inline;
+		position: absolute;
+		right: 1rem;
+		top: 1.5rem;
+		cursor: pointer;
+	}
+	.mobile-menu.responsive{
+		display: block;
+		position: relative;
+		box-sizing: border-box;
+		height: 100vh;
+	}
+	.nav-section{
+		display: block;
+		text-align: center;
+	}
+	.extra-menus-section{
+		border: 1px solid green;
+		line-height: 1rem;
+		text-align: center;
+	}
+	.home-header .nav-section .div-one{
+		display: flex;
+	}
+
+	.home-header .nav-section .div-one .logo{
+		width: 80px;
+		height: 40px;
+		margin-left: 1rem;
+		margin-top: 0.7rem;
+	}
+	
+
+	.nav-section .visible-menu-text{
+		color: black;
+		text-decoration: none;
+		width: fit-content;
+		margin: auto;
+		padding-right: 2.5rem;
+		text-align: center;
+	}
+	
+	.nav-section .nav-gallary {
+		color: black;
+		text-decoration: none;
+		width: fit-content;
+		margin: auto;
+	}
+	
+	.nav-section .about-us {
+		color: black;
+		text-decoration: none;
+		width: fit-content;
+		margin: auto;
+	}
+
+
+
+
+	.extra-menus-section .extra-menus{
+		display: block;
+		border: 1px solid red;
+		width: fit-content;
+		margin: 1rem auto;
+		text-align: left;
+	}
+	.extra-menus-section .extra-menus div a{
+		line-height: 2rem;
+	}
+	.extra-menus div a span{
+		bottom: 5px;
+	}
+	.s1, .s2{
+		display: block;
+	}
+	.s1 .product-div, .s2 .product-div{
+		height: 23rem;
+		width: 23.1rem;
+		border: 1px solid rgb(221, 210, 210);
+		border-radius: 5px;
+		position: relative;
+		display: block;
+		margin-top: 2rem;
+	}
+	.form-section{
+		display: block;
+	}
+	.form-section form{
+		display: block;
+	}
+	.form-section form .first-section{
+		display: block;
+	}
+	.form-section form .first-section label h4{
+		margin: 0;
+		font-size: 1rem;
+		display: none;
+	
+		position: absolute;
+		color: white;
+	}
+	.form-section form .first-section label h4 .one{
+		left: 4.5rem;
+		color: black !important;
+	}
+	.form-section form section label h4.two{
+		left: 4rem;
+		top: 13rem;
+	}
+	.form-section form section label h4.three{
+		left: 4rem;
+		top: 17.8rem;
+	}
+	form .textarea-section label h4{
+		position: absolute;
+		top: -0.9rem;
+		left: -1.8rem;
+		padding-bottom: 0.3rem;
+		font-size: 1rem;
+	}
+	#email, #phone, #state, #submit{
+		margin-top: 2rem;
+	}
+	form section textarea{
+		margin-top: 1.5rem;
+	}
+	.form-section form div{
+		display: block;
+	}
+	textarea{
+		width: 69vw;
+	}
+	.textarea-section{
+		margin: 0%;
+		padding: 1rem 0;
+	}
+	.home-vid{
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.home-vid-vid{
+		margin: 1rem auto;
+		border-radius: 5px;
+	}
+	.home-vid section{
+		text-align: center;
+	}
+	.home-vid section p{
+		display: block;
+		text-align: center;
+		width: 90%;
+		font-size: 1.3rem;
+		padding: 0 0 0.9rem 0;
+		margin: 0 auto;
+	}
+	.home-vid section a{
+		font-size: 1.5rem;
+	}
+	.home-vid section .see-gallary-arrow{
+		bottom: -3px;
+		font-size: 28px;
+	}
+	.outward-span-of-typing{
+		font-size: 1.5rem;
+	}
+	section .brands{
+		display: block;
+		text-align: center;
+	}
+	section .brands img{
+		display: block;
+		text-align: center;
+		margin: 0.7rem auto;
+	}
+	footer{
+		text-align: left;
+		padding: 1rem;
+		margin: 0;
+	}
+	footer div .second-sec{
+		display: block;
+	}
+	footer .for-flex{
+		display: block;
+		padding-left: 0%;
+	}
+	footer .contact-details{
+		display: block;
+		text-align: left;
+		padding-top: 0;
+		line-height: 0.3rem;
+	}
+	footer .contact-details p{
+		text-align: left;
+	}
+	footer .for-flex .divider{
+		display: none;
+	}
+	footer .second-sec{
+		padding-top: 1.7rem;
+	}	
+	.error-message.show {
+		margin-top: 0;
+	 }
+}
