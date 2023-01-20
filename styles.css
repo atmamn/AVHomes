@@ -846,8 +846,9 @@ main .product-details{
 		display: block;
 		text-align: left;
 		padding-top: 0;
-		line-height: 0.11rem;
+		line-height: 1.1rem;
 		padding-right: 0%;
+		height: fit-content;
 	}
 	footer .contact-details p{
 		text-align: left;
