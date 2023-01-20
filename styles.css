@@ -832,7 +832,7 @@ main .product-details{
 	footer{
 		text-align: left;
 		padding: 1rem 0;
-		margin: 0;
+		margin: 0 !important;
 	}
 	footer div .second-sec{
 		display: block;
