@@ -840,6 +840,7 @@ main .product-details{
 	footer .for-flex{
 		display: block;
 		padding-left: 0%;
+		padding-right: 0%;
 	}
 	footer .contact-details{
 		display: block;
