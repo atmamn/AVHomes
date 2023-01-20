@@ -846,7 +846,8 @@ main .product-details{
 		display: block;
 		text-align: left;
 		padding-top: 0;
-		line-height: 0.3rem;
+		line-height: 0.5rem;
+		padding-right: 0%;
 	}
 	footer .contact-details p{
 		text-align: left;
@@ -856,6 +857,7 @@ main .product-details{
 	}
 	footer .second-sec{
 		padding-top: 1.7rem;
+		padding-right: 0%;
 	}	
 	.error-message.show {
 		margin-top: 0;
