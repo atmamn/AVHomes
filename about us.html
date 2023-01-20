@@ -79,67 +79,75 @@
 		<!--get quotation-->
 		<section class="form-section">
 			<form action="" method="post">
-				<h3>Get in touch</h3>
-				<section class="first-section">
-					<h4>Name</h4>
-					<label for="name"><input id="name" type="text" name="Name" required placeholder="Name"></label>
-					<h4>Email</h4>
-					<label for="email"><input id="email" name="email" type="Email" required placeholder="Email"></label>
-					<h4>Phone</h4>
-					<label for="phone"><input id="phone" type="text" name="Phone" required placeholder="Phone"></label>
-				</section>
-				<section class="textarea-section">
-					<h4>Message</h4>
-					<label for="message"><textarea name="message" id="Message" cols="70" rows="10" required placeholder="Message"></textarea></label>
-				</section>
-				<div>
-					<section>
-						<select name="state" id="state" required>
-							<option selected="true" disabled="disabled" >Select a state</option>
-							<option value="Abia">Abia</option>
-							<option value="Adamawa">Adamawa</option>
-							<option value="Akwa-Ibom">Akwa Ibom</option>
-							<option value="Anambra">Anambra</option>
-							<option value="Bauchi">Bauchi</option>
-							<option value="Bayelsa">Bayelsa</option>
-							<option value="Benue">Benue</option>
-							<option value="Borno">Borno</option>
-							<option value="Cross-River">Cross River</option>
-							<option value="Delta">Delta</option>
-							<option value="Ebonyi">Ebonyi</option>
-							<option value="Edo">Edo</option>
-							<option value="Ekiti">Ekiti</option>
-							<option value="Enugu">Enugu</option>
-							<option value="Gombe">Gombe</option>
-							<option value="Imo">Imo</option>
-							<option value="Jigawa">Jigawa</option>
-							<option value="Kaduna">Kaduna</option>
-							<option value="Kano">Kano</option>
-							<option value="Katsina">Katsina</option>
-							<option value="Kebbi">Kebbi</option>
-							<option value="Kogi">Kogi</option>
-							<option value="Kwara">Kwara</option>
-							<option value="Lagos">Lagos</option>
-							<option value="Nasarawa">Nasarawa</option>
-							<option value="Niger">Niger</option>
-							<option value="Ogun">Ogun</option>
-							<option value="Ondo">Ondo</option>
-							<option value="Osun">Osun</option>
-							<option value="Oyo">Oyo</option>
-							<option value="Plateau">Plateau</option>
-							<option value="Rivers">Rivers</option>
-							<option value="Sokoto">Sokoto</option>
-							<option value="Taraba">Taraba</option>
-							<option value="Yobe">Yobe</option>
-							<option value="Zamfara">Zamfara</option>
-						</select>
+					<h3>Get in touch</h3>
+					<section class="first-section">
+						<label for="name">
+							<h4 class="one">Name</h4>
+							<input id="name" type="text" name="Name" required placeholder="Name"></label>
+						<label for="email">
+							<h4 class="two">Email</h4>
+							<input id="email" name="email" type="Email" required placeholder="Email">
+							<div class="email-error error-message"></div>
+						</label>
+						<label for="phone">
+							<h4 class="three">Phone</h4>
+							<input id="phone" type="text" name="Phone" required placeholder="Phone">
+							<div class="form-error-message"></div>
+						</label>
 					</section>
-					<section>
-						<button type="submit">submit</button>
+					<section class="textarea-section">
+						<label for="message">
+							<h4>Message</h4>
+							<textarea name="message" id="Message" cols="70" rows="10" required placeholder="Message"></textarea>
+						</label>
 					</section>
-				</div>
-				<div class="form-error-message"></div>
-			</form>
+					<div>
+						<section>
+							<select name="state" id="state" required>
+								<option selected="true" disabled="disabled" >Select a state</option>
+								<option value="Abia">Abia</option>
+								<option value="Adamawa">Adamawa</option>
+								<option value="Akwa-Ibom">Akwa Ibom</option>
+								<option value="Anambra">Anambra</option>
+								<option value="Bauchi">Bauchi</option>
+								<option value="Bayelsa">Bayelsa</option>
+								<option value="Benue">Benue</option>
+								<option value="Borno">Borno</option>
+								<option value="Cross-River">Cross River</option>
+								<option value="Delta">Delta</option>
+								<option value="Ebonyi">Ebonyi</option>
+								<option value="Edo">Edo</option>
+								<option value="Ekiti">Ekiti</option>
+								<option value="Enugu">Enugu</option>
+								<option value="Gombe">Gombe</option>
+								<option value="Imo">Imo</option>
+								<option value="Jigawa">Jigawa</option>
+								<option value="Kaduna">Kaduna</option>
+								<option value="Kano">Kano</option>
+								<option value="Katsina">Katsina</option>
+								<option value="Kebbi">Kebbi</option>
+								<option value="Kogi">Kogi</option>
+								<option value="Kwara">Kwara</option>
+								<option value="Lagos">Lagos</option>
+								<option value="Nasarawa">Nasarawa</option>
+								<option value="Niger">Niger</option>
+								<option value="Ogun">Ogun</option>
+								<option value="Ondo">Ondo</option>
+								<option value="Osun">Osun</option>
+								<option value="Oyo">Oyo</option>
+								<option value="Plateau">Plateau</option>
+								<option value="Rivers">Rivers</option>
+								<option value="Sokoto">Sokoto</option>
+								<option value="Taraba">Taraba</option>
+								<option value="Yobe">Yobe</option>
+								<option value="Zamfara">Zamfara</option>
+							</select>
+						</section>
+						<section>
+							<button id="submit" type="submit">submit</button>
+						</section>
+					</div>
+				</form>
 		</section>
 		<footer class="product-page">
 			<div class="for-flex">
