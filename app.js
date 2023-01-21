@@ -164,7 +164,7 @@ function validateForm(event) {
   let errorMessage = document.querySelector(".form-error-message");
 
   if (!isValid && phoneNumber != "") {
-    errorMessage.innerHTML = "Invalid phone number. Please enter a valid Nigerian phone number.";
+    errorMessage.innerHTML = "Please enter a valid Nigerian phone number.";
     errorMessage.classList.add("show");
     phoneInput.classList.add("error");
   } else {
