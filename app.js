@@ -185,14 +185,14 @@ const threeH4 = document.querySelector('.form-section form .first-section label 
   emailInput.addEventListener("invalid", function(event) {
     errorMessage.innerHTML = "Please enter a valid email address.";
     errorMessage.classList.add("show");
-    threeH4.style.top = '18.8rem'
+    /*threeH4.style.top = '18.8rem'*/
   });
 
   // Listen for the 'input' event on the email input
   emailInput.addEventListener("input", function() {
     errorMessage.innerHTML = "";
     errorMessage.classList.remove("show");
-    threeH4.style.top = '17.8rem'
+    /*threeH4.style.top = '17.8rem'*/
   });
 
 
