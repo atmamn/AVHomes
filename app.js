@@ -195,8 +195,30 @@ const threeH4 = document.querySelector('.form-section form .first-section label 
     /*threeH4.style.top = '17.8rem'*/
   });
 
+// email validation section media query
+const screenSize = window.matchMedia('(max-width: 1000px)');
 
-// add links
+changeFunc = (e) => {
+  let emailInput = document.querySelector("#email");
+  const threeH4 = document.querySelector('.form-section form .first-section label h4.three');
+  let errorMessage = document.querySelector(".email-error.error-message");
+
+  if (e.matches) {
+    emailInput.addEventListener("invalid", function(event) {
+      errorMessage.innerHTML = "Please enter a valid email address.";
+      errorMessage.classList.add("show");
+      threeH4.style.top = '18.8rem'
+    });
+  
+    // Listen for the 'input' event on the email input
+    emailInput.addEventListener("input", function() {
+      errorMessage.innerHTML = "";
+      errorMessage.classList.remove("show");
+      threeH4.style.top = '17.8rem'
+    });
+  }
+}
+screenSize.addEventListener('change', changeFunc);
 
 
 // mobile menu
