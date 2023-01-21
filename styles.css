@@ -769,7 +769,7 @@ main .product-details{
 	form .textarea-section label h4{
 		position: absolute;
 		top: -0.9rem;
-		left: 1rem;
+		left: 0;
 		padding-bottom: 0.3rem;
 		font-size: 1rem;
 	}
