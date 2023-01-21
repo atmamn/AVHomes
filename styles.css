@@ -755,7 +755,7 @@ main .product-details{
 		position: absolute;
 		color: white;
 	}
-	.form-section form .first-section label h4 .one{
+	.form-section form .first-section label h4.one{
 		left: 4.5rem;
 		color: black !important;
 	}
