@@ -687,7 +687,6 @@ main .product-details{
 	position: relative;
 }
 
-
 .smart-header .product-header-div{
 	display: flex;
 	justify-content: center;
@@ -768,10 +767,6 @@ main .product-details{
 	align-items: center;
 }
 
-
-
-
-
 .cinema-header{
 	background-image: url('cinema2.jpg');
 	height: 50vh;
@@ -802,6 +797,35 @@ main .product-details{
 	align-items: center;
 }
 
+.pool-header{
+	background-image: url('poolfence2.jpg');
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.pool-header .product-header-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.pool-header .product-header-div .material-icons{
+	font-size: 3rem;
+	color: white;
+}
+
+.pool-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 /* media query*/
 
