@@ -708,6 +708,36 @@ main .product-details{
 	align-items: center;
 }
 
+.lights-header{
+	background-image: url('smartlights2.jpg');
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.lights-header .product-header-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.lights-header .product-header-div .material-icons{
+	font-size: 3rem;
+	color: white;
+}
+
+.lights-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 /* media query*/
 
