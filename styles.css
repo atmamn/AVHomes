@@ -738,10 +738,6 @@ main .product-details{
 	align-items: center;
 }
 
-
-
-
-
 .speaker-header{
 	background-image: url('smartspeaker2.jpg');
 	height: 50vh;
@@ -767,6 +763,40 @@ main .product-details{
 }
 
 .speaker-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.cinema-header{
+	background-image: url('cinema2.jpg');
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.cinema-header .product-header-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.cinema-header .product-header-div .material-icons{
+	font-size: 3rem;
+	color: white;
+}
+
+.cinema-header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
