@@ -678,6 +678,37 @@ main .product-details{
 }
 
 
+.smart-header{
+	background-image: url('smartlock2.jpg');
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.smart-header .product-header-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.smart-header .product-header-div .material-icons{
+	font-size: 3rem;
+	color: white;
+}
+
+.smart-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
 /* media query*/
 
 @media (max-width: 900px) {
