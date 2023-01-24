@@ -612,7 +612,7 @@ footer .contact-details{
 
 
 
-/* Product page*/
+/* Product pages*/
 .product-header{
 	background-image: url('homeimg.png');
 	height: 50vh;
@@ -646,6 +646,37 @@ main .product-details{
 	width: 60%;
 	margin: 1rem auto;
 }
+
+.boardroom-header{
+	background-image: url('smartboardroom.jpg');
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.boardroom-header .product-header-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.boardroom-header .product-header-div .material-icons{
+	font-size: 3rem;
+	color: white;
+}
+
+.boardroom-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 /* media query*/
 
