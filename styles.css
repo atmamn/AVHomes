@@ -739,6 +739,40 @@ main .product-details{
 }
 
 
+
+
+
+.speaker-header{
+	background-image: url('smartlock2.jpg');
+	height: 50vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.speaker-header .product-header-div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: white;
+	text-transform: capitalize;
+}
+
+.speaker-header .product-header-div .material-icons{
+	font-size: 3rem;
+	color: white;
+}
+
+.speaker-header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
 /* media query*/
 
 @media (max-width: 900px) {
